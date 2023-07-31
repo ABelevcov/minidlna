@@ -1,4 +1,5 @@
 FROM alpine:latest
+LABEL org.opencontainers.image.description="miniDLNA server"
 
 # Install
 RUN apk --no-cache add bash curl minidlna tini shadow su-exec alpine-conf inotify-tools
